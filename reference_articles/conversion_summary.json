@@ -1,0 +1,46 @@
+{
+  "input_csv": "C:\\Users\\danni\\OneDrive\\桌面\\paper\\storm\\brit_wiki_fulltext20250702 (1).csv",
+  "output_directory": "C:\\Users\\danni\\OneDrive\\桌面\\paper\\storm\\reference_articles",
+  "output_files": {
+    "wikipedia": "C:\\Users\\danni\\OneDrive\\桌面\\paper\\storm\\reference_articles\\wikipedia.json",
+    "britannica": "C:\\Users\\danni\\OneDrive\\桌面\\paper\\storm\\reference_articles\\britannica.json"
+  },
+  "processing_timestamp": "2025-08-04T21:01:16.659608",
+  "text_format": "plain",
+  "statistics": {
+    "total_rows_in_csv": 153,
+    "wikipedia": {
+      "successful_topics": 152,
+      "failed_topics": 1,
+      "success_rate": "99.3%"
+    },
+    "britannica": {
+      "successful_topics": 145,
+      "failed_topics": 8,
+      "success_rate": "94.8%"
+    },
+    "rows_with_no_content": 1
+  },
+  "csv_columns_found": [
+    "id",
+    "title_in_wiki",
+    "title_in_britannica",
+    "brit_intro",
+    "brit_fulltext",
+    "norm_title_in_britannica",
+    "norm_title_in_wiki1",
+    "norm_title_in_wiki2_maintable",
+    "norm_title_in_wiki2_wikitable",
+    "wiki_fulltext_plain",
+    "wiki_first_intro",
+    "wiki_long_intro"
+  ],
+  "content_columns_detected": {
+    "wikipedia_columns": [
+      "wiki_fulltext_plain"
+    ],
+    "britannica_columns": [
+      "brit_fulltext"
+    ]
+  }
+}
